@@ -26,7 +26,7 @@ header {
 
 header .menu {
   margin: 40px 0;
-  text-align: right; 
+  text-align: right;
 }
 
 header .menu .background-menu {
@@ -198,6 +198,47 @@ footer .contact .title {
   text-align: center;
 }
 
+
+footer .contacto div {
+  display: flex;
+  align-items: center;  
+}
+
+footer .contacto .email-parrafo{
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 24px;
+  color: rgb(133, 14, 14);
+  padding-right: 10px;
+}
+
+footer .contacto .telefono-parrafo{
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 24px;
+  color: rgb(37, 61, 5);
+  padding-left: 10px;
+
+}
+
+footer .contacto .telefono {
+  color: rgb(126, 98, 98);
+  font-size: 36px;
+}
+
+footer .contacto .email {
+  color: rgb(204, 105, 24);
+  font-size: 36px;
+}
+
+
+
+
+
+/* footer .contact .form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
 footer .contact .form {
   display: flex;
   flex-wrap: wrap;
@@ -250,6 +291,8 @@ footer .contact .form .button:hover {
   background: #387bea;
 }
 
+*/
+
 /* REDES SOCIALES */
 
 footer .social-media {
@@ -289,42 +332,36 @@ footer .social-media .linkedin:hover {
   background: #0077b5;
 }
 
-
 /* MEDIA QUERIES */
 
-@media screen and (max-width:800px){
-    
-    header{
-        background-size:cover;
-        }
+@media screen and (max-width: 800px) {
+  header {
+    background-size: cover;
+  }
 
-    header .menu .background-menu {
-        text-align: center;
-      }
+  header .menu .background-menu {
+    text-align: center;
+  }
 
-      header .menu .background-menu a{
-        font-size: 20px;
-      }
+  header .menu .background-menu a {
+    font-size: 20px;
+  }
 
-    .main .skills .content-skills .skill-job {
-        width: 46%; /* NOS PERMITE TENER 2 ELEMENTOS */
-      }
+  .main .skills .content-skills .skill-job {
+    width: 46%; /* NOS PERMITE TENER 2 ELEMENTOS */
+  }
 }
 
-@media screen and (max-width:500px){
-    header .content .content-text .name{
-        font-size: 25px;
-    }
+@media screen and (max-width: 500px) {
+  header .content .content-text .name {
+    font-size: 25px;
+  }
 
-    header .content .content-text .profession{
-        font-size: 18px;
-    }
+  header .content .content-text .profession {
+    font-size: 18px;
+  }
 
-    footer .social-media .content{
-        flex-wrap: wrap;
-        
-
-    }
-
+  footer .social-media .content {
+    flex-wrap: wrap;
+  }
 }
-
